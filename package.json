@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-server-with-express",
+  "version": "1.0.0",
+  "description": "learning express for node",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.3",
+    "joi": "^14.3.1",
+    "mongoose": "^5.7.13",
+    "node": "^13.1.0",
+    "nodemon": "^2.0.1",
+    "npm": "^6.13.1",
+    "promise": "^8.0.3",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC"
+}
